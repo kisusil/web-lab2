@@ -1,0 +1,97 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+span {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+a {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #A6AEBF;
+}
+
+a:visited {
+    color: #9C80F7;
+}
+
+a:hover {
+    color: #A6AEFF;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    width: 900px;
+    height: 1px;
+    background-color: #A6AEBF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 1px;
+}
+
+.container {
+    width: 900px;
+}
+
+#logo {
+
+}
+
+.structure {
+
+}
+
+@media (max-width: 940px) {
+    .container {
+        width: 95vw;
+    }
+
+    .line {
+        width: 95vw;
+    }
+}
