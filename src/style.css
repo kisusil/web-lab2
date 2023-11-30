@@ -10,12 +10,14 @@ h2 {
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 32px;
+    margin-bottom: 0;
 }
 
-span {
+h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 24px;
+    margin-bottom: 0;
 }
 
 p {
@@ -39,12 +41,24 @@ a:hover {
     color: #A6AEFF;
 }
 
+.last-section {
+    padding-bottom: 90px;
+}
+
 .mb-12 {
     margin-bottom: 12px;
 }
 
 .mb-30 {
     margin-bottom: 30px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 .mt-80 {
@@ -75,18 +89,61 @@ a:hover {
 }
 
 .container {
-    width: 900px;
+    width: 980px;
 }
 
 #logo {
+    width: 400px;
+    height: 119px;
+}
 
+@media (max-width: 440px) {
+    #logo {
+        width: 95vw;
+        height: calc(95vw / 3.375);
+    }
 }
 
 .structure {
-
+    margin-top: 40px;
 }
 
-@media (max-width: 940px) {
+#user1 {
+    width: 275px;
+    height: 136px;
+}
+
+#user2 {
+    width: 578px;
+    height: 400px;
+}
+
+#user3 {
+    width: 889px;
+    height: 1016px;
+}
+
+#user4 {
+    width: 517px;
+    height: 312px;
+}
+
+#admin1 {
+    width: 275px;
+    height: 136px;
+}
+
+#admin2 {
+    width: 964px;
+    height: 664px;
+}
+
+#admin3 {
+    width: 681px;
+    height: 1720px;
+}
+
+@media (max-width: 1020px) {
     .container {
         width: 95vw;
     }
