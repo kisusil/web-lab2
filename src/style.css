@@ -45,14 +45,6 @@ a:hover {
     padding-bottom: 90px;
 }
 
-.mb-12 {
-    margin-bottom: 12px;
-}
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
 .mt-16 {
     margin-top: 16px;
 }
@@ -63,15 +55,6 @@ a:hover {
 
 .mt-80 {
     margin-top: 80px;
-}
-
-.mt-60 {
-    margin-top: 60px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
 }
 
 .column {
@@ -89,7 +72,7 @@ a:hover {
 }
 
 .container {
-    width: 980px;
+    width: 900px;
 }
 
 #logo {
@@ -110,37 +93,30 @@ a:hover {
 
 #user1 {
     width: 275px;
-    height: 136px;
 }
 
 #user2 {
-    width: 578px;
-    height: 400px;
+    width: 307px;
 }
 
 #user3 {
-    width: 889px;
-    height: 1016px;
+    width: 240px;
 }
 
 #user4 {
-    width: 517px;
-    height: 312px;
+    width: 219px;
 }
 
 #admin1 {
     width: 275px;
-    height: 136px;
 }
 
 #admin2 {
-    width: 964px;
-    height: 664px;
+    width: 252px;
 }
 
 #admin3 {
-    width: 681px;
-    height: 1720px;
+    width: 311px;
 }
 
 @media (max-width: 1020px) {
